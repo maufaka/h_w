@@ -1,0 +1,144 @@
+body {
+  font-family: "Arial";
+  width: 1280px;
+  margin: 0 auto;
+  background-image: url("img/bg.jpg");
+}
+
+.head {
+    background-color: #445161;
+    height: 273px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    padding: 50px 50px 0 50px;
+}
+
+.prod {
+  float: left;
+}
+
+#prod-image {
+  float: right;
+}
+
+.product-name {
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.product-list {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+
+}
+
+.product-link {
+  list-style-type: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  position: relative;
+}
+
+.product-link:before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 19px;
+  position: absolute;
+  top: 5px;
+  left: -35px;
+  background-image: url("img/check_icon.png");
+}
+
+.about-product {
+  padding: 50px 0 50px 50px;
+  width: 650px;
+  float: left;
+}
+
+.about {
+  color: #445161;
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 0 0 30px 0;
+}
+
+.about-discr {
+  color: #333333;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+video {
+  background-color: #445161;
+  width: 430px;
+  height: 245px;
+  float: right;
+  margin: 50px 50px 0 0;
+}
+
+.dignity-and-pluses {
+  clear: both;
+}
+
+.dignity {
+  color: #445161;
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.dignity-list {
+
+}
+
+.dignity-left {
+  width: 567px;
+  float: left;
+  margin-left: 50px;
+}
+
+.dignity-right {
+  width: 567px;
+  float: right;
+  margin-right: 70px;
+}
+
+.dignity-link {
+  color: #333333;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 35px;
+  list-style-type: none;
+  position: relative;
+}
+
+.dignity-link:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: -35px;
+  background-image: url("img/Layer_2.png");
+  background-color: #445161;
+}
