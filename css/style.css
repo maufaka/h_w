@@ -2,7 +2,8 @@ body {
   font-family: "Arial";
   width: 1280px;
   margin: 0 auto;
-  background-image: url("img/bg.jpg");
+  box-sizing: border-box;
+  background-image: url("../img/bg.jpg");
 }
 
 .head {
@@ -17,7 +18,7 @@ body {
   float: left;
 }
 
-#prod-image {
+.prod-image {
   float: right;
 }
 
@@ -56,7 +57,7 @@ body {
   position: absolute;
   top: 5px;
   left: -35px;
-  background-image: url("img/check_icon.png");
+  background-image: url("../img/check_icon.png");
 }
 
 .about-product {
@@ -91,7 +92,10 @@ video {
 }
 
 .dignity-and-pluses {
+  padding-top: 5px;
   clear: both;
+  background-color: #f5f5f5;
+  height: 450px;
 }
 
 .dignity {
@@ -139,6 +143,78 @@ video {
   position: absolute;
   top: 5px;
   left: -35px;
-  background-image: url("img/Layer_2.png");
+  background-image: url("../img/layer_2.png");
   background-color: #445161;
+  outline: 5px solid #445161;
+}
+
+.scrin {
+  color: #445161;
+  font-family: "Arial";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.scrinshots {
+  width: 100%;
+  padding: 50px 50px 20px 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.scrin {
+  display: block;
+  width: 100%;
+  margin: 0 0 35px 0;
+  font-family: Arial;
+  color:  #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.screenshots-wrapper {
+  width: 574px;
+  margin: 0 0 30px 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.screenshots-photo {
+  display: block;
+  width: 200px;
+  height: 150px;
+  background-color:  #445161;
+}
+
+.screenshots-photo-wrapper {
+  width: 359px;
+}
+
+.screenshots-photo-title {
+  display: block;
+  margin: 0 0 15px 0;
+  font-family: Arial;
+  color:  #445161;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.screenshots-photo-txt {
+  margin: 0;
+  font-family: Arial;
+  color:  #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
 }
